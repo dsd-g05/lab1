@@ -50,10 +50,10 @@ BEGIN
 	);                                           
 always : PROCESS   
 BEGIN   
-	FOR i in 0 to 15 loop
-	X <= std_LOGIC_VECTOR(to_unsigned(i,4));
-	wait for 10 ns;
-	end loop;
+	FOR i IN 0 TO 15 LOOP
+	X <= STD_LOGIC_VECTOR(to_unsigned(i,4));
+	WAIT FOR 10 ns;
+	END LOOP;
 	
 WAIT; 
                                                        

@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 16 16 184 32)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "X[3..0]" (rect 5 0 37 12)(font "Arial" ))
+	(text "X[3..0]" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1440,18 +1440,6 @@ applicable agreement for further details.
 	(pt 384 176)
 )
 (connector
-	(pt 360 184)
-	(pt 384 184)
-)
-(connector
-	(pt 384 184)
-	(pt 384 192)
-)
-(connector
-	(pt 384 192)
-	(pt 400 192)
-)
-(connector
 	(pt 360 232)
 	(pt 376 232)
 )
@@ -1651,18 +1639,6 @@ applicable agreement for further details.
 	(pt 896 272)
 )
 (connector
-	(pt 856 280)
-	(pt 888 280)
-)
-(connector
-	(pt 888 280)
-	(pt 888 288)
-)
-(connector
-	(pt 888 288)
-	(pt 896 288)
-)
-(connector
 	(pt 856 360)
 	(pt 864 360)
 )
@@ -1785,11 +1761,6 @@ applicable agreement for further details.
 	(pt 648 16)
 )
 (connector
-	(text "X[1]" (rect 768 16 786 28)(font "Arial" ))
-	(pt 792 32)
-	(pt 760 32)
-)
-(connector
 	(text "X[2]" (rect 568 32 586 44)(font "Arial" ))
 	(pt 584 48)
 	(pt 560 48)
@@ -1850,34 +1821,9 @@ applicable agreement for further details.
 	(pt 768 272)
 )
 (connector
-	(text "X[2]" (rect 648 272 666 284)(font "Arial" ))
-	(pt 672 288)
-	(pt 640 288)
-)
-(connector
 	(text "X[3]" (rect 776 288 794 300)(font "Arial" ))
 	(pt 792 304)
 	(pt 768 304)
-)
-(connector
-	(text "X[0]" (rect 648 320 666 332)(font "Arial" ))
-	(pt 672 336)
-	(pt 640 336)
-)
-(connector
-	(text "X[1]" (rect 768 336 786 348)(font "Arial" ))
-	(pt 792 352)
-	(pt 760 352)
-)
-(connector
-	(text "X[2]" (rect 768 352 786 364)(font "Arial" ))
-	(pt 792 368)
-	(pt 760 368)
-)
-(connector
-	(text "X[3]" (rect 768 368 786 380)(font "Arial" ))
-	(pt 792 384)
-	(pt 760 384)
 )
 (connector
 	(text "X[0]" (rect 776 400 794 412)(font "Arial" ))
@@ -1915,11 +1861,6 @@ applicable agreement for further details.
 	(pt 768 528)
 )
 (connector
-	(text "X[3]" (rect 648 528 666 540)(font "Arial" ))
-	(pt 672 544)
-	(pt 640 544)
-)
-(connector
 	(text "X[0]" (rect 776 560 794 572)(font "Arial" ))
 	(pt 792 576)
 	(pt 768 576)
@@ -1938,4 +1879,63 @@ applicable agreement for further details.
 	(text "X[3]" (rect 656 608 674 620)(font "Arial" ))
 	(pt 672 624)
 	(pt 648 624)
+)
+(connector
+	(pt 360 184)
+	(pt 376 184)
+)
+(connector
+	(pt 376 184)
+	(pt 376 192)
+)
+(connector
+	(pt 400 192)
+	(pt 376 192)
+)
+(connector
+	(text "X[1]" (rect 776 16 794 28)(font "Arial" ))
+	(pt 768 32)
+	(pt 792 32)
+)
+(connector
+	(text "X[2]" (rect 656 272 674 284)(font "Arial" ))
+	(pt 648 288)
+	(pt 672 288)
+)
+(connector
+	(text "X[0]" (rect 656 320 674 332)(font "Arial" ))
+	(pt 648 336)
+	(pt 672 336)
+)
+(connector
+	(text "X[3]" (rect 656 528 674 540)(font "Arial" ))
+	(pt 648 544)
+	(pt 672 544)
+)
+(connector
+	(pt 856 280)
+	(pt 864 280)
+)
+(connector
+	(pt 864 280)
+	(pt 864 288)
+)
+(connector
+	(pt 896 288)
+	(pt 864 288)
+)
+(connector
+	(text "X[1]" (rect 776 336 794 348)(font "Arial" ))
+	(pt 792 352)
+	(pt 768 352)
+)
+(connector
+	(text "X[2]" (rect 776 352 794 364)(font "Arial" ))
+	(pt 792 368)
+	(pt 768 368)
+)
+(connector
+	(text "X[3]" (rect 776 368 794 380)(font "Arial" ))
+	(pt 792 384)
+	(pt 768 384)
 )
